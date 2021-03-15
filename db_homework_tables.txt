@@ -1,0 +1,19 @@
+create database db_homework;
+
+create table users (
+id serial,
+course_name text,
+email text,
+password text,
+firstname text,
+surname text,
+country text,
+country
+age text,
+gender text
+);
+
+create table courses (
+id serial,
+name text
+);
